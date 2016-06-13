@@ -13,7 +13,7 @@ pushd %0\..
 cls
 
 rem main process
-C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /out:Program.exe /t:exe /r:MSCorLib.dll Program.cs > result.log
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe Program.cs > result.log
 
 pause
 exit

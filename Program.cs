@@ -11,6 +11,8 @@ namespace Program
         static void Main(string[] args)
         {
             Console.WriteLine("Hello! World!");
+            Console.WriteLine("いずれかのキーを入力してください。");
+            Console.ReadKey();
         }
     }
 }
