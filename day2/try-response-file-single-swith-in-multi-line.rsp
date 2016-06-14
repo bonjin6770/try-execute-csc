@@ -1,0 +1,7 @@
+/out:
+Program.exe
+/t:
+exe
+/r:
+MSCorLib.dll
+Program.cs
